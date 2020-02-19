@@ -2,8 +2,9 @@
 //     return "There are " + arr.length + " elements in this array";
 // };
 
-module.exports.counter = function(arr) {   //another to export modules(2nd way) - module patterns
-    return "There are " + arr.length + " elements in this array";
+module.exports.counter = function(arr) {
+  //another to export modules(2nd way) - module patterns
+  return "There are " + arr.length + " elements in this array";
 };
 
 //console.log(counter(["shaun", "crystal", "ryu"]));
@@ -12,8 +13,8 @@ module.exports.counter = function(arr) {   //another to export modules(2nd way) 
 //     return `The sum of the two numbers is ${a+b}`;
 // };
 
-module.exports.adder = function(a,b) {
-    return `The sum of the two numbers is ${a+b}`;
+module.exports.adder = function(a, b) {
+  return `The sum of the two numbers is ${a + b}`;
 };
 
 //var pi = 3.142;
